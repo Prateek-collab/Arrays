@@ -1,0 +1,19 @@
+import java.util.*
+
+fun main(){
+    val stringArray=arrayOf("Hello","Kotlin","Programmers")
+
+    //println(stringArray.get(0))
+    println(stringArray[0])
+    //indexing
+    stringArray[0]="Bye"
+    //value change
+    println(stringArray[0])
+
+    println(stringArray.size)
+
+    /* println(stringArray) gives us a bizzare output
+    so we use Java.util.* module
+     */
+    println(Arrays.toString(stringArray))
+}
